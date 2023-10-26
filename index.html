@@ -8,30 +8,40 @@
   
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- Adding Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Adding Main Styles -->
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="font-sans">
+  <main>
+    <div class="container mx-auto px-4">
+      <div class="max-w-md mx-auto h-96">
+        <div class="image">
+          <img src="./images/illustration-hero.svg" alt="">
+        </div>
+        <div class="p-8">
+          <h2 class="text-center text-2xl font-bold">Order Summary</h2>
+          
 
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
+          You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!
+        
+          Annual Plan
+          $59.99/year
+        
+          Change
+        
+          Proceed to Payment
+          Cancel Order
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </footer>
 </body>
 </html>
